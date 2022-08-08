@@ -79,6 +79,45 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
+.content {
+  margin: 10px 30px;
+  padding: 0;
+}
+.content-container {
+  padding: 60px 20px 0 20px;
+  margin-top: 20px;
+}
+.content h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--dafault-font-family);
+  font-weight: bold;
+}
+.hero-photo {
+  max-width: 400px;
+  border-radius: 10px;
+}
+.skills {
+  /*  background: var(--branding-color); */
+  margin-top: 90px;
+  /* color: var(--branding-color); */
+  font-size: 38px;
+}
+.line {
+  border-bottom: 3px solid var(--secondary-color);
+}
+.skill-name {
+  font-size: 16px;
+}
+.skill-icon {
+  max-width: 40px;
+  display: block;
+  margin: 0 auto;
+}
 footer {
   margin: 80px 0 20px 0;
 }

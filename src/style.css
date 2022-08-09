@@ -25,7 +25,7 @@ h6 {
   font-family: var(--heading-font-family);
 }
 h1 {
-  font-size: 85px;
+  font-size: 64px;
   line-height: 1.5;
 }
 
@@ -163,6 +163,7 @@ footer .developer-link:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+
 @media (max-width: 1200px) {
   .project-image {
     border-radius: 10px;

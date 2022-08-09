@@ -127,6 +127,9 @@ p {
   font-size: 48px;
   color: var(--branding-color);
 }
+.contact-sector {
+  margin: 30px 0 5px;
+}
 footer {
   margin: 80px 0 20px 0;
 }
@@ -208,7 +211,7 @@ footer .developer-link:hover {
     max-width: 500px;
   }
   .email-link {
-    font-size: 20px;
+    font-size: 18px;
   }
   footer .contact-box {
     padding: 30px 40px;
@@ -221,6 +224,14 @@ footer .developer-link:hover {
     border-radius: 10px;
     max-width: 320px;
     margin: 0;
+  }
+  footer .developer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+  .contact-container h1 {
+    margin-top: 60px;
   }
 }
 @media (max-width: 540px) {
@@ -289,5 +300,8 @@ footer .developer-link:hover {
   .hero-photo {
     margin: 30px 10px 0 10px;
     max-width: 250px;
+  }
+  .contact-icon {
+    font-size: 28px;
   }
 }

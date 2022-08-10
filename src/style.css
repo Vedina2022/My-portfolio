@@ -97,6 +97,9 @@ p {
   font-family: var(--dafault-font-family);
   font-weight: bold;
 }
+.certificate-image {
+  border-radius: 10px;
+}
 .contact-container {
   padding: 60px 20px 200px 20px;
 }
